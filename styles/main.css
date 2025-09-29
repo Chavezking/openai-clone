@@ -1,0 +1,389 @@
+main {
+  margin-left: 200px;
+  padding-top: 270px;
+  /*background-color:red;*/
+  padding-left: 25px;
+}
+
+.chatgpt-help {
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  text-align: center;
+}
+
+textarea {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  background-color: #FFFFFF1F;
+  border: none;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+  border-radius: 20px;
+  color: white;
+  padding-top: 20px;
+  max-width: 1200px;
+}
+
+.search-button {
+  color: #FFFFFF99;
+  background-color: #000000;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 20px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 29px;
+}
+
+.help-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+
+}
+
+.gpt-5 {
+  width: 100%;
+  height: 403px;
+  border-radius: 0.38rem;
+  max-width: 1200px;
+  margin-bottom: 17px;
+  object-fit: cover;
+  
+}
+
+.gpt5-advert-text {
+  font-size: 43px;
+  color: #FFFFFF;
+  font-weight: 500;
+  margin-bottom: 21px;
+}
+
+.gpt5-specs {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(255, 255, 255);
+  margin-top: 0px;
+}
+
+.gpt5-advert {
+  margin-top: 360px;
+  width: 95%;
+}
+
+.article-image {
+  width: 100%;
+  height: 228px;
+  object-fit: cover;
+  border-radius: 6.08px;
+}
+
+.article-title {
+  color: rgb(255, 255, 255);
+  margin-top: 16px;
+  font-size: 17px;
+  margin-bottom: 25px;
+  line-height: 26px;
+}
+
+.article-info, .read-time {
+  font-size: 14px;
+  color: white;
+}
+
+.read-time {
+  font-size: 14px;
+  color: #FFFFFF70;
+  margin-left: 10px;
+}
+
+.article-preview {
+  width: 228px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-previews {
+  display: flex;
+  gap: 16px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.latest-news-heading {
+  color: rgb(255, 255, 255);
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.view-all {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  /*margin-right: 29px;*/
+  
+}
+
+.latest-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 135px;
+  margin-bottom: 32px;
+}
+
+.latest-news-image {
+  width: 185px;
+  height: 185px;
+  border-radius: 6.08px;
+}
+
+.news-title {
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.news-stats {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.news-date {
+  color: #FFFFFF70;
+  margin-left: 10px;
+}
+
+.news-preview {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: background-color 0.15s;
+}
+
+.news-previews {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+   gap: 18px;
+}
+
+.news-preview:hover {
+  background-color: #FFFFFF70;
+}
+
+.latest-news-section {
+}
+
+.stories-section-heading {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 135px;
+ margin-bottom: 32px;
+}
+
+.story-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.38rem;
+  height: 278.333px;
+  width: 100%;
+}
+
+.story-image-2 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.38rem;
+  height: 125.25px;
+  
+}
+
+.story-image-3 {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.38rem;
+  height: 222.px;
+  
+}
+
+.story-preview {
+  width: 222px;
+}
+
+.story-previews {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.research-section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 135px;
+  margin-bottom: 32px;
+}
+
+.latest-research-image {
+  height: 259.5px;
+  width: 100%;
+  border-radius: 6.08px;
+  
+}
+
+.latest-research-title {
+  font-size: 21.12px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  font-weight: 500;
+  margin-top: 16px;
+  line-height: 26.1px;
+}
+
+.latest-research-preview {
+  width: 330px;
+}
+
+.research-previews {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+
+}
+
+.business-section-heading {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 135px;
+ margin-bottom: 32px;
+}
+
+.get-started {
+  font-size: 42px;
+  color: rgb(255, 255, 255);
+  line-height: 48px;
+  letter-spacing: -1.08px;
+  font-weight: 500pc;
+}
+
+.download-button {
+  padding: 0px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255, 0.12);
+  font-size: 14px;
+  height: 40px;
+  line-height: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 20px;
+  letter-spacing: normal;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.get-started-alert {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFFFFF1F;
+  padding: 120px 0px;
+  margin-top: 170px;
+  width: 97%;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  gap: 20px;
+
+}
+
+.download-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+@media (min-width: 320px) and (max-width: 500px)  {
+  main {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  .hero-section{
+    width: 100%;
+    align-items: center;
+  }
+  
+  .gpt5-advert {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .article-preview {
+    width: 95%;
+    margin-top: 25px;
+  }
+  
+  .article-previews {
+    justify-content: center;
+  }
+  
+  .news-previews {
+    margin-left: 10px;
+  }
+  /*section headings*/
+  
+  .story-preview {
+    width: 95%;
+    margin-top: 25px;
+  }
+  
+  .story-previews{
+    justify-content: center;
+    
+  }
+  
+  .latest-research-preview {
+    width: 95%;
+    margin-top: 25px;
+  }
+  
+  .research-previews {
+    justify-content: center;
+  }
+  
+  .latest-news-image {
+    width: 120px;
+    height: 120px;
+  }
+  
+  .latest-section-heading, .stories-section-heading, .research-section-heading, .business-section-heading{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .get-started-alert {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}

@@ -1,0 +1,83 @@
+header {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 63px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.left-section {
+  display: flex;
+  width: 167px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.openai-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.overview {
+  height: 30px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  /*background-color: blue;*/
+  width: 130px;
+  justify-content: space-between;
+}
+
+.search-icon {
+  background-color: black;
+  width: 16px;
+  height: 16px;
+}
+
+.login-button {
+  color: rgb(255, 255, 255);
+  border: none;
+  font-weight: 500; 
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 40px;
+  background-color: #FFFFFF1F;
+  border-radius: 20px;
+}
+/*Media queries to make header responsive*/
+@media (min-width: 320px) and (max-width: 500px){
+  .login-button {
+    display: none;
+  }
+  
+  .left-section {
+    width: 86%;
+  }
+  
+  .right-section {
+    width: 10%;
+  }
+  
+  header {
+    padding-right: 15px;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .overview {
+    height: 24px;
+  }
+  
+}
