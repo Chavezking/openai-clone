@@ -3,6 +3,7 @@ main {
   padding-top: 270px;
   /*background-color:red;*/
   padding-left: 25px;
+  height: 100vh;
 }
 
 .chatgpt-help {
@@ -45,6 +46,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   gap: 29px;
+  width: 97%;
 }
 
 .help-buttons {
@@ -111,7 +113,7 @@ textarea {
 }
 
 .article-preview {
-  width: 228px;
+  width: 30.5%/*228px*/;
   display: flex;
   flex-direction: column;
 }
@@ -148,9 +150,13 @@ textarea {
 }
 
 .latest-news-image {
-  width: 185px;
-  height: 185px;
+  width: 100%; /*changed*/;
   border-radius: 6.08px;
+}
+
+.news-image {
+  width: 24.8%; /*changed*/
+  
 }
 
 .news-title {
@@ -184,6 +190,7 @@ textarea {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 100%;/*changed*/
    gap: 18px;
 }
 
@@ -191,8 +198,6 @@ textarea {
   background-color: #FFFFFF70;
 }
 
-.latest-news-section {
-}
 
 .stories-section-heading {
  display: flex;
@@ -206,15 +211,14 @@ textarea {
   width: 100%;
   object-fit: cover;
   border-radius: 0.38rem;
-  height: 278.333px;
-  width: 100%;
+  /*height: 278.333px;*/
 }
 
 .story-image-2 {
   width: 100%;
   object-fit: cover;
   border-radius: 0.38rem;
-  height: 125.25px;
+/*  height: 125.25px;*/
   
 }
 
@@ -222,18 +226,19 @@ textarea {
   width: 100%;
   object-fit: cover;
   border-radius: 0.38rem;
-  height: 222.px;
+  /*height: 222.0px;*/
   
 }
 
 .story-preview {
-  width: 222px;
+  width: 30%/*222px*/;
 }
 
 .story-previews {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  
 }
 
 .research-section-heading {
@@ -261,7 +266,7 @@ textarea {
 }
 
 .latest-research-preview {
-  width: 330px;
+  width: 45%/*330px*/;
 }
 
 .research-previews {
@@ -308,7 +313,7 @@ textarea {
   background-color: #FFFFFF1F;
   padding: 120px 0px;
   margin-top: 170px;
-  width: 97%;
+  width: 95%;
   border-radius: 5px;
   margin-bottom: 35px;
   gap: 20px;
@@ -320,10 +325,11 @@ textarea {
   color: rgb(0, 0, 0);
 }
 
-@media (min-width: 320px) and (max-width: 500px)  {
+@media (max-width: 576px) {
   main {
     margin-left: 0;
     padding-left: 0;
+    padding-top: 120px;
   }
   
   .hero-section{
@@ -332,6 +338,7 @@ textarea {
   }
   
   .gpt5-advert {
+    margin-top: 110px;
     margin-left: auto;
     margin-right: auto;
   }
